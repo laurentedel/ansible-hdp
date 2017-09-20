@@ -142,6 +142,7 @@ The following variables can be set for each node:
 List the inventory:
 
 ```
+cd ~/ansible-hdp
 ansible -i inventory/static all --list-hosts
 ```
 
